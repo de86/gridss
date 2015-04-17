@@ -32,10 +32,13 @@ div {
 .col {
   float: left; }
 
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0px) and (max-width: 480px) {
   [class^="md-"],
   [class*="md-"] {
     width: 100%; }
+
+  .sm-hidden {
+    display: none; }
 
   .sm-1-1 {
     widyh: 100%; }
@@ -72,10 +75,13 @@ div {
 
   .sm-1-12 {
     width: 8.333%; } }
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   [class^="lg-"],
   [class*="lg-"] {
     width: 100%; }
+
+  .md-hidden {
+    display: none; }
 
   .md-1-2 {
     width: 50%; }
@@ -109,10 +115,13 @@ div {
 
   .md-1-12 {
     width: 8.333%; } }
-@media screen and (min-width: 601px) and (max-width: 960px) {
+@media screen and (min-width: 768px) and (max-width: 960px) {
   [class^="xl-"],
   [class*="xl-"] {
     width: 100%; }
+
+  .lg-hidden {
+    display: none; }
 
   .lg-1-2 {
     width: 50%; }
@@ -146,7 +155,10 @@ div {
 
   .lg-1-12 {
     width: 8.333%; } }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 961px) {
+  .xl-hidden {
+    display: none; }
+
   .xl-1-2 {
     width: 50%; }
 
